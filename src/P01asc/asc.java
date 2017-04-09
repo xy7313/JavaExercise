@@ -6,7 +6,10 @@ package P01asc;
 public class asc {
 
     public static void main(String[] arg){
-        System.out.print('c'-2);
+        for(int i = 0; i<256; i++){
+            System.out.println(i + " : " + Character.toString((char)i));
+        }
+
     }
 
 }
